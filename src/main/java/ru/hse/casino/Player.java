@@ -12,7 +12,7 @@ public class Player {
         return chips;
     }
 
-    private boolean isInGame() {
+    public boolean isInGame() {
         return activeGame != null;
     }
 
